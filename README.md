@@ -1,2 +1,5 @@
 # DDD19
-Key links and material for my animation session at DDD 2019 conference in Perth, Western Australia
+Key links and material for my animation session at [DDD 2019 conference in Perth, Western Australia][DDD]
+
+
+[DDD]: https://dddperth.com/
