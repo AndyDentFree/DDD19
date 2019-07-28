@@ -1,7 +1,7 @@
 # DDD19
 Key links and material for my animation session at [DDD 2019 conference][ddd] in Perth, Western Australia.
 
-If you just followed a link to this repository, see the [presentation slides][./slides.md].
+If you just followed a link to this repository, see the [presentation slides](./slides.md).
 
 There will also be a bunch of other relevant pages linked here which don't appear in my 20 minute session.
 
