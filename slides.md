@@ -5,7 +5,8 @@ slideNumber: true
 controls: true
 ---
 <!-- usual source https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js -->
-<script src="./assets/lottie-player.js"></script>
+<!-- local source doesn't work opening directly "./assets/lottie-player.js" only if playing from local server -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 #
 ![](./assets/SponsorsBlack.png)
