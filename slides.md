@@ -5,6 +5,10 @@ slideNumber: true
 controls: true
 ---
 
+#
+SPEAKER SLIDE HERE
+
+
 # Anyone can Animate {bg=#eee}
 
 **(Even if they can't draw)**
@@ -28,14 +32,11 @@ Top recommendations:
 - Val Head's book _Interface Animation_, articles and videos
 - Disney's book [The Illusion of Life][ill]
 - [As video][12p] and [gifs][12g] which are on the following pages
+- [Really good article][Dis12] illustrating them with longer clips from Disney and Pixar movies
 
 # 12 Principles - Anticipation
 
 ![](./assets/12p_anticipation.gif)
-
-# 12 Principles - Staging
-
-![](./assets/12p_staging.gif)
 
 
 # 12 Principles - Squash and Stretch
@@ -78,11 +79,6 @@ Top recommendations:
 ![](./assets/12p_exaggeration.gif)
 
 
-# 12 Principles - Solid Drawings
-
-![](./assets/12p_soliddrawings.gif)
-
-
 # 12 Principles - Appeal    
 
 ![](./assets/12p_appeal.gif)
@@ -123,7 +119,7 @@ Add animation
 
 Generate working code
 
-# Tools
+# Mostly Mobile Tools
 
 Supernova Studio
 
@@ -160,3 +156,4 @@ Twitter: @andydentperth
 [ill]: https://www.amazon.com/Illusion-Life-Disney-Animation/dp/0786860707/ref=sr_1_1?ie=UTF8&qid=1452379828&sr=8-1
 [12g]: https://the12principles.tumblr.com/
 [flash]: https://www.youtube.com/watch?v=LfmrHTdXgK4
+[Dis12]: https://ohmy.disney.com/movies/2016/07/20/twelve-principles-animation-disney/
