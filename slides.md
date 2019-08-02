@@ -27,9 +27,9 @@ See lots of links on my github site (also be on the last slide)
 
 [github.com/AndyDentFree/DDD19][gh]
 
-- Val Head's book _Interface Animation_, articles and videos
+- Val Head's book _Interface Animation_, videos etc
 - Disney's book [The Illusion of Life][ill]
-- [As video][12p] and [gifs][12g] 8 of which are on the following pages
+- [As video][12p] and [gifs][12g] 8 of which follow
 - [Really good article][Dis12] illustrating them with longer clips from Disney and Pixar movies, and explanations
 
 
@@ -62,7 +62,7 @@ See lots of links on my github site (also be on the last slide)
 ![](./assets/12p_secondaryaction.gif)
 
 
-# Principle 9- Timing
+# Principle 9 - Timing
 
 ![](./assets/12p_timing.gif)
 
@@ -75,9 +75,9 @@ See lots of links on my github site (also be on the last slide)
 
 # Why Animate? - Designers
 
-Distract
-
 Amuse
+
+Distract
 
 Inform
 
