@@ -5,8 +5,7 @@ slideNumber: true
 controls: true
 ---
 <!-- usual source https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js -->
-<!-- local source doesn't work opening directly "./assets/lottie-player.js" only if playing from local server -->
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="./assets/lottie-player.js"></script>
 
 #
 ![](./assets/SponsorsBlack.png)
@@ -130,12 +129,13 @@ Start at about 3:30
 </aside>
 
 # Why Animate? - Developer's View
-
+<section style="text-align: left; font-size: 80px">
 **D** istract
 
 **I** nform
 
 **E** ntertain
+</section>
 
 # Animation as a new Developer Hell
 
@@ -181,14 +181,21 @@ Other editors such as [Haiku] and [Keyshape]
 
 As seen on the Why Animate? - Designers slide, content from [lottiefiles.com][lottieSamples]
 
+<aside class="notes">
+Looking at the support slide linked above, the Path support is pretty good with gradients missing on Windows. Masks in AE are poorly supported as are Text effects, Layer effects and Merge paths
+</aside>
 # Mostly Mobile Tools
 
-Supernova Studio
+[Supernova Studio][SS]
 
-Haiku
+[PaintCode]
 
-Flow 
-
+[Flow] 
+<aside class="notes">
+PaintCode not really animation but can parameterise some vectors, generates range of code.
+Flow just generates iOS and web
+SS free to prototype and preview, pay for export code
+</aside>
 
 # Simple Animation Example
 
@@ -201,25 +208,76 @@ Start at about 10:40
 
 ![](./assets/SupernovaAnimationEditor.png)
 
+# 
+<section data-background-video="./assets/menuAnimation.mp4" data-background-video-loop data-background-video-muted>
+</section>
+<aside class="notes">
+Movie Start at about 11:40
+</aside>
+
 # Supernova Generated - Swift
+
+```swift
+let animationElement1 = CAAnimationGroup()
+animationElement1.isRemovedOnCompletion = false
+animationElement1.fillMode = .removed
+animationElement1.animations = []
+
+let animationProperty1 = CAKeyframeAnimation()
+animationProperty1.beginTime = 0
+animationProperty1.repeatCount = Float(1)
+animationProperty1.duration = 1
+animationProperty1.autoreverses = false
+animationProperty1.isRemovedOnCompletion = false
+animationProperty1.timingFunction = CAMediaTimingFunction(controlPoints: 0.22, 0.61, 0.61, 1)
+animationProperty1.keyPath = "transform.translation.y"
+animationProperty1.keyTimes = [ 0, 0.6, 0.75, 0.9, 1 ]
+animationProperty1.values = [ 3000, -25, 10, -5, 0 ]
+animationProperty1.animations?.append(animationProperty1)
+  ```
 
 # Supernova Generated - Kotlin
 
+```kotlin
+val animator1 = ObjectAnimator.ofPropertyValuesHolder(addItemMenuPopupConstraintLayout, PropertyValuesHolder.ofKeyframe(View.TRANSLATION_Y, Keyframe.ofFloat(0f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 3000f, this.resources.displayMetrics)), Keyframe.ofFloat(0.6f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, -25f, this.resources.displayMetrics)), Keyframe.ofFloat(0.75f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10f, this.resources.displayMetrics)), Keyframe.ofFloat(0.9f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, -5f, this.resources.displayMetrics)), Keyframe.ofFloat(1f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 0f, this.resources.displayMetrics))))
+animator1.duration = 1000
+animator1.interpolator = PathInterpolatorCompat.create(0.22f, 0.61f, 0.61f, 1f)
+
+val animator2 = ObjectAnimator.ofPropertyValuesHolder(addItemMenuPopupConstraintLayout, PropertyValuesHolder.ofKeyframe(View.ALPHA, Keyframe.ofFloat(0f, 0f), Keyframe.ofFloat(0.6f, 1f), Keyframe.ofFloat(1f, 1f)))
+animator2.duration = 1000
+animator2.interpolator = PathInterpolatorCompat.create(0.22f, 0.61f, 0.61f, 1f)
+
+val animatorSet1 = AnimatorSet()
+animatorSet1.playTogether(animator1, animator2)
+animatorSet1.setTarget(addItemMenuPopupConstraintLayout)
+
+val animatorSet2 = AnimatorSet()
+animatorSet2.playTogether(animatorSet1)
+animatorSet2.start()
+```
+
 # Supernova Generated - React Native
+
+```javacript
+this.state.addItemMenuPopupViewTranslateY.setValue(0)
+this.state.addItemMenuPopupViewOpacity.setValue(0)
+
+// Configure animation and trigger
+Animated.parallel([Animated.parallel([Animated.timing(this.state.addItemMenuPopupViewTranslateY, {
+  duration: 1000,
+  easing: Easing.bezier(0.22, 0.61, 0.61, 1),
+  toValue: 1,
+}), Animated.timing(this.state.addItemMenuPopupViewOpacity, {
+  duration: 1000,
+  easing: Easing.bezier(0.22, 0.61, 0.61, 1),
+  toValue: 1,
+})])]).start()
+```
 
 <aside class="notes">
 Flutter not yet generating animation
 </aside>
 
-# Supernova Intro
-<aside class="notes">
-Movie Start at about 11:40
-</aside>
-
-# Supernova Play Editing Controls
-<aside class="notes">
-Movie Start at about 15:40
-</aside>
 
 # Further Details
 
@@ -240,4 +298,7 @@ Twitter: @andydentperth
 [Keyshape]: https://www.keyshapeapp.com/
 [Haiku]: https://www.haiku.ai/
 [lottieAE]: http://airbnb.io/lottie/#/supported-features
+[Flow]: https://createwithflow.com/
+[PaintCode]:https://www.paintcodeapp.com/
+[SS]: https://supernova.io/
 

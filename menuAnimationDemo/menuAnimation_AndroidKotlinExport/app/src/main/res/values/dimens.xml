@@ -1,0 +1,41 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<dimen name="material_spacing_small">8dp</dimen>
+	<dimen name="material_spacing_medium">16dp</dimen>
+	<dimen name="material_spacing_large">24dp</dimen>
+	<dimen name="material_bottom_sheet_item_size">56dp</dimen>
+	<dimen name="material_bottom_sheet_item_text_size">16sp</dimen>
+	
+	<!-- DocTreeActivity -->
+	<dimen name="doc_tree_activity_add_item_menu_button_text_size">11sp</dimen>
+	<dimen name="doc_tree_activity_add_camera_item_button_text_size">11sp</dimen>
+	<dimen name="doc_tree_activity_add_downloaded_item_image_view_margin_start">14dp</dimen>
+	<dimen name="doc_tree_activity_add_downloaded_item_image_view_margin_top">15dp</dimen>
+	<dimen name="doc_tree_activity_add_downloaded_item_image_view_margin_end">16dp</dimen>
+	<dimen name="doc_tree_activity_add_text_item_image_view_margin_start">16dp</dimen>
+	<dimen name="doc_tree_activity_add_text_item_image_view_margin_end">18dp</dimen>
+	<dimen name="doc_tree_activity_add_text_item_image_view_margin_bottom">19dp</dimen>
+	<dimen name="doc_tree_activity_add_item_menu_popup_constraint_layout_height">441dp</dimen>
+	<dimen name="doc_tree_activity_add_item_menu_popup_constraint_layout_margin_start">41dp</dimen>
+	<dimen name="doc_tree_activity_add_item_menu_popup_constraint_layout_margin_top">45dp</dimen>
+	<dimen name="doc_tree_activity_add_item_menu_popup_constraint_layout_margin_end">211dp</dimen>
+	<dimen name="doc_tree_activity_add_camera_item_button_height">73dp</dimen>
+	<dimen name="doc_tree_activity_add_camera_item_button_margin_start">17dp</dimen>
+	<dimen name="doc_tree_activity_add_camera_item_button_margin_top">14dp</dimen>
+	<dimen name="doc_tree_activity_add_camera_item_button_margin_end">17dp</dimen>
+	<dimen name="doc_tree_activity_tools_image_view_margin_start">15dp</dimen>
+	<dimen name="doc_tree_activity_composer_toolbar_constraint_layout_height">67dp</dimen>
+	<dimen name="doc_tree_activity_add_item_menu_button_width">46dp</dimen>
+	<dimen name="doc_tree_activity_add_item_menu_button_height">46dp</dimen>
+	<dimen name="doc_tree_activity_add_item_menu_button_margin_start">15dp</dimen>
+	<dimen name="doc_tree_activity_send_image_view_margin_end">58dp</dimen>
+	<dimen name="doc_tree_activity_scenes_menu_image_view_margin_start">11dp</dimen>
+	<dimen name="doc_tree_activity_play_image_view_margin_end">15dp</dimen>
+	<dimen name="doc_tree_activity_add_photo_item_image_view_margin_start">16dp</dimen>
+	<dimen name="doc_tree_activity_add_photo_item_image_view_margin_top">15dp</dimen>
+	<dimen name="doc_tree_activity_add_photo_item_image_view_margin_end">18dp</dimen>
+	<dimen name="doc_tree_activity_add_paint_item_image_view_margin_start">17dp</dimen>
+	<dimen name="doc_tree_activity_add_paint_item_image_view_margin_top">15dp</dimen>
+	<dimen name="doc_tree_activity_add_paint_item_image_view_margin_end">17dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+	
+	<!-- DocTreeActivity -->
+	<style name="DocTreeActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+</resources>

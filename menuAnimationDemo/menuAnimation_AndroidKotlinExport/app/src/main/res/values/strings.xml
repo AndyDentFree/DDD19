@@ -1,0 +1,8 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">menuAnimation</string>
+	
+	<!-- DocTreeActivity -->
+	<string name="doc_tree_activity_title"></string>
+</resources>

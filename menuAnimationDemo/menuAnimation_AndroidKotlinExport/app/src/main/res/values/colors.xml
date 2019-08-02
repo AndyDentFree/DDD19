@@ -1,0 +1,20 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_primary">#000000</color>
+	<color name="color_primary_dark">#000000</color>
+	<color name="color_accent">#000000</color>
+	<color name="click_overlay">#555555</color>
+	<color name="default_hint">#C6C6CB</color>
+	<color name="material_bottom_sheet_title">#8a000000</color>
+	<color name="material_bottom_sheet_item">#de000000</color>
+	
+	<!-- DocTreeActivity -->
+	<color name="doc_tree_activity_doctree_constraint_layout_background_color">#FFFFFF</color>
+	<color name="doc_tree_activity_composer_toolbar_constraint_layout_background_color">#F0F6F6</color>
+	<color name="doc_tree_activity_composer_toolbar_constraint_layout_border_color">#979797</color>
+	<color name="doc_tree_activity_add_item_menu_button_text_color">#000000</color>
+	<color name="doc_tree_activity_add_item_menu_popup_constraint_layout_background_color">#F0F6F6</color>
+	<color name="doc_tree_activity_add_item_menu_popup_constraint_layout_border_color">#979797</color>
+	<color name="doc_tree_activity_add_camera_item_button_text_color">#000000</color>
+</resources>

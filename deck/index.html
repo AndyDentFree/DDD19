@@ -39,8 +39,7 @@
         <div class="slides">
 
 <!-- usual source https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js -->
-<!-- local source doesn't work opening directly "./assets/lottie-player.js" only if playing from local server -->
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="./assets/lottie-player.js"></script>
 <section id="section" class="level1">
 <h1></h1>
 <p><img src="./assets/SponsorsBlack.png" /></p>
@@ -137,9 +136,11 @@ Start at about 3:30
 </section>
 <section id="why-animate---developers-view" class="level1">
 <h1>Why Animate? - Developer’s View</h1>
+<section style="text-align: left; font-size: 80px">
 <p><strong>D</strong> istract</p>
 <p><strong>I</strong> nform</p>
-<p><strong>E</strong> ntertain</p>
+<strong>E</strong> ntertain
+</section>
 </section>
 <section id="animation-as-a-new-developer-hell" class="level1">
 <h1>Animation as a new Developer Hell</h1>
@@ -176,12 +177,20 @@ Not focused on this
 <p>Fast native &amp; web players by <a href="http://airbnb.io/lottie/#/">AirBnb</a></p>
 <p>Other editors such as <a href="https://www.haiku.ai/">Haiku</a> and <a href="https://www.keyshapeapp.com/">Keyshape</a></p>
 <p>As seen on the Why Animate? - Designers slide, content from <a href="https://lottiefiles.com/b.bfer">lottiefiles.com</a></p>
+<aside class="notes">
+Looking at the support slide linked above, the Path support is pretty good with gradients missing on Windows. Masks in AE are poorly supported as are Text effects, Layer effects and Merge paths
+</aside>
 </section>
 <section id="mostly-mobile-tools" class="level1">
 <h1>Mostly Mobile Tools</h1>
-<p>Supernova Studio</p>
-<p>Haiku</p>
-<p>Flow</p>
+<p><a href="https://supernova.io/">Supernova Studio</a></p>
+<p><a href="https://www.paintcodeapp.com/">PaintCode</a></p>
+<a href="https://createwithflow.com/">Flow</a>
+<aside class="notes">
+PaintCode not really animation but can parameterise some vectors, generates range of code.
+Flow just generates iOS and web
+SS free to prototype and preview, pay for export code
+</aside>
 </section>
 <section id="simple-animation-example" class="level1">
 <h1>Simple Animation Example</h1>
@@ -194,28 +203,68 @@ Start at about 10:40
 <h1>Supernova Editor</h1>
 <p><img src="./assets/SupernovaAnimationEditor.png" /></p>
 </section>
-<section id="supernova-generated---swift" class="level1">
-<h1>Supernova Generated - Swift</h1>
+<section id="section-1" class="level1">
+<h1></h1>
+<section data-background-video="./assets/menuAnimation.mp4" data-background-video-loop data-background-video-muted>
 </section>
-<section id="supernova-generated---kotlin" class="level1">
-<h1>Supernova Generated - Kotlin</h1>
-</section>
-<section id="supernova-generated---react-native" class="level1">
-<h1>Supernova Generated - React Native</h1>
-<aside class="notes">
-Flutter not yet generating animation
-</aside>
-</section>
-<section id="supernova-intro" class="level1">
-<h1>Supernova Intro</h1>
 <aside class="notes">
 Movie Start at about 11:40
 </aside>
 </section>
-<section id="supernova-play-editing-controls" class="level1">
-<h1>Supernova Play Editing Controls</h1>
+<section id="supernova-generated---swift" class="level1">
+<h1>Supernova Generated - Swift</h1>
+<pre class="swift"><code>let animationElement1 = CAAnimationGroup()
+animationElement1.isRemovedOnCompletion = false
+animationElement1.fillMode = .removed
+animationElement1.animations = []
+
+let animationProperty1 = CAKeyframeAnimation()
+animationProperty1.beginTime = 0
+animationProperty1.repeatCount = Float(1)
+animationProperty1.duration = 1
+animationProperty1.autoreverses = false
+animationProperty1.isRemovedOnCompletion = false
+animationProperty1.timingFunction = CAMediaTimingFunction(controlPoints: 0.22, 0.61, 0.61, 1)
+animationProperty1.keyPath = &quot;transform.translation.y&quot;
+animationProperty1.keyTimes = [ 0, 0.6, 0.75, 0.9, 1 ]
+animationProperty1.values = [ 3000, -25, 10, -5, 0 ]
+animationProperty1.animations?.append(animationProperty1)</code></pre>
+</section>
+<section id="supernova-generated---kotlin" class="level1">
+<h1>Supernova Generated - Kotlin</h1>
+<pre class="kotlin"><code>val animator1 = ObjectAnimator.ofPropertyValuesHolder(addItemMenuPopupConstraintLayout, PropertyValuesHolder.ofKeyframe(View.TRANSLATION_Y, Keyframe.ofFloat(0f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 3000f, this.resources.displayMetrics)), Keyframe.ofFloat(0.6f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, -25f, this.resources.displayMetrics)), Keyframe.ofFloat(0.75f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10f, this.resources.displayMetrics)), Keyframe.ofFloat(0.9f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, -5f, this.resources.displayMetrics)), Keyframe.ofFloat(1f, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 0f, this.resources.displayMetrics))))
+animator1.duration = 1000
+animator1.interpolator = PathInterpolatorCompat.create(0.22f, 0.61f, 0.61f, 1f)
+
+val animator2 = ObjectAnimator.ofPropertyValuesHolder(addItemMenuPopupConstraintLayout, PropertyValuesHolder.ofKeyframe(View.ALPHA, Keyframe.ofFloat(0f, 0f), Keyframe.ofFloat(0.6f, 1f), Keyframe.ofFloat(1f, 1f)))
+animator2.duration = 1000
+animator2.interpolator = PathInterpolatorCompat.create(0.22f, 0.61f, 0.61f, 1f)
+
+val animatorSet1 = AnimatorSet()
+animatorSet1.playTogether(animator1, animator2)
+animatorSet1.setTarget(addItemMenuPopupConstraintLayout)
+
+val animatorSet2 = AnimatorSet()
+animatorSet2.playTogether(animatorSet1)
+animatorSet2.start()</code></pre>
+</section>
+<section id="supernova-generated---react-native" class="level1">
+<h1>Supernova Generated - React Native</h1>
+<pre class="javacript"><code>this.state.addItemMenuPopupViewTranslateY.setValue(0)
+this.state.addItemMenuPopupViewOpacity.setValue(0)
+
+// Configure animation and trigger
+Animated.parallel([Animated.parallel([Animated.timing(this.state.addItemMenuPopupViewTranslateY, {
+  duration: 1000,
+  easing: Easing.bezier(0.22, 0.61, 0.61, 1),
+  toValue: 1,
+}), Animated.timing(this.state.addItemMenuPopupViewOpacity, {
+  duration: 1000,
+  easing: Easing.bezier(0.22, 0.61, 0.61, 1),
+  toValue: 1,
+})])]).start()</code></pre>
 <aside class="notes">
-Movie Start at about 15:40
+Flutter not yet generating animation
 </aside>
 </section>
 <section id="further-details" class="level1">

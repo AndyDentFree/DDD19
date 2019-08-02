@@ -1,0 +1,166 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="13771" initialViewController="U7f-10-VmB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <scenes>
+        <scene sceneID="1f7-hT-wyN">
+            <objects>
+                <viewController id="U7f-10-VmB" sceneMemberID="viewController" customModule="iOS_Development" customModuleProvider="target" customClass="DocTreeViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GD0-yI-BXd" />
+                        <viewControllerLayoutGuide type="bottom" id="ohn-9E-SpR" />
+                    </layoutGuides>
+                    <view id="Fed-Q4-tOc" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                        <rect key="frame" x="0" y="0" width="375" height="576" />
+                        <constraints>
+                            <constraint firstItem="UYC-EU-cda" firstAttribute="leading" secondItem="Fed-Q4-tOc" secondAttribute="leading" constant="0" id="RYS-s5-QWv" />
+                            <constraint firstItem="Fed-Q4-tOc" firstAttribute="trailing" secondItem="UYC-EU-cda" secondAttribute="trailing" constant="0" id="JuE-Wx-5x6" />
+                            <constraint firstItem="Fed-Q4-tOc" firstAttribute="bottom" secondItem="UYC-EU-cda" secondAttribute="bottom" constant="0" id="DgB-VU-Jkv" />
+                            <constraint firstItem="d0E-md-e5R" firstAttribute="leading" secondItem="Fed-Q4-tOc" secondAttribute="leading" constant="43" id="fpV-9u-M4A" />
+                            <constraint firstItem="Fed-Q4-tOc" firstAttribute="trailing" secondItem="d0E-md-e5R" secondAttribute="trailing" constant="220" id="KKd-PN-RUs" />
+                            <constraint firstItem="d0E-md-e5R" firstAttribute="top" secondItem="Fed-Q4-tOc" secondAttribute="top" constant="47" id="xyL-rM-aOe" />
+                        </constraints>
+                        <subviews>
+                            <view id="UYC-EU-cda" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9411764740943909" green="0.9647058844566345" blue="0.9647058844566345" alpha="1.0" />
+                                <rect key="frame" x="0" y="506" width="375" height="70" />
+                                <constraints>
+                                    <constraint firstItem="UYC-EU-cda" firstAttribute="height" constant="70" id="qdT-BW-aJo" />
+                                    <constraint firstItem="UYC-EU-cda" firstAttribute="trailing" secondItem="M3M-JA-lel" secondAttribute="trailing" constant="60" id="HDI-PF-kEY" />
+                                    <constraint firstItem="M3M-JA-lel" firstAttribute="centerY" secondItem="UYC-EU-cda" secondAttribute="centerY" constant="0" id="qWm-aY-sA7" />
+                                    <constraint firstItem="M3M-JA-lel" firstAttribute="leading" secondItem="yjC-cC-5Za" secondAttribute="trailing" constant="16" id="2hz-eT-Beg" />
+                                    <constraint firstItem="yjC-cC-5Za" firstAttribute="centerY" secondItem="UYC-EU-cda" secondAttribute="centerY" constant="0" id="s7x-rg-2MJ" />
+                                    <constraint firstItem="ABK-ct-Qql" firstAttribute="leading" secondItem="7RH-Wv-K3t" secondAttribute="trailing" constant="16" id="HbX-0I-dbn" />
+                                    <constraint firstItem="ABK-ct-Qql" firstAttribute="centerY" secondItem="UYC-EU-cda" secondAttribute="centerY" constant="0" id="wVV-pt-KWe" />
+                                    <constraint firstItem="7RH-Wv-K3t" firstAttribute="leading" secondItem="htx-z7-usx" secondAttribute="trailing" constant="16" id="qps-of-kqp" />
+                                    <constraint firstItem="7RH-Wv-K3t" firstAttribute="centerY" secondItem="UYC-EU-cda" secondAttribute="centerY" constant="0" id="IVW-CE-YaH" />
+                                    <constraint firstItem="htx-z7-usx" firstAttribute="leading" secondItem="UYC-EU-cda" secondAttribute="leading" constant="11" id="ZyH-1X-R7X" />
+                                    <constraint firstItem="htx-z7-usx" firstAttribute="centerY" secondItem="UYC-EU-cda" secondAttribute="centerY" constant="0" id="hSe-6H-vVQ" />
+                                </constraints>
+                                <subviews>
+                                    <imageView id="M3M-JA-lel" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="send">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="267" y="12" width="48" height="48" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="yjC-cC-5Za" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="play">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="203" y="12" width="48" height="48" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="ABK-ct-Qql" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="tools">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="139" y="12" width="48" height="48" />
+                                        <constraints />
+                                    </imageView>
+                                    <button id="7RH-Wv-K3t" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="75" y="12" width="48" height="48" />
+                                        <constraints>
+                                            <constraint firstItem="7RH-Wv-K3t" firstAttribute="width" constant="48" id="H7N-5p-U3k" />
+                                            <constraint firstItem="7RH-Wv-K3t" firstAttribute="height" constant="48" id="0CF-uV-vWH" />
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12" />
+                                        <state backgroundImage="add-item-menu" key="normal" />
+                                        <connections>
+                                            <action selector="onAddItemMenuPressed:" destination="U7f-10-VmB" eventType="touchUpInside" id="BGO-YD-1Y3" />
+                                        </connections>
+                                    </button>
+                                    <imageView id="htx-z7-usx" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="scenes-menu">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="11" y="12" width="48" height="48" />
+                                        <constraints />
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view id="d0E-md-e5R" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9411764740943909" green="0.9647058844566345" blue="0.9647058844566345" alpha="1.0" />
+                                <rect key="frame" x="43" y="47" width="112" height="459" />
+                                <constraints>
+                                    <constraint firstItem="d0E-md-e5R" firstAttribute="height" constant="459" id="hXh-pa-hZ5" />
+                                    <constraint firstItem="NyQ-59-YLr" firstAttribute="leading" secondItem="d0E-md-e5R" secondAttribute="leading" constant="17" id="G2n-5I-PCI" />
+                                    <constraint firstItem="d0E-md-e5R" firstAttribute="trailing" secondItem="NyQ-59-YLr" secondAttribute="trailing" constant="19" id="y3X-a9-6ko" />
+                                    <constraint firstItem="d0E-md-e5R" firstAttribute="bottom" secondItem="NyQ-59-YLr" secondAttribute="bottom" constant="20" id="T4g-iD-nUg" />
+                                    <constraint firstItem="W6T-Tq-Hhk" firstAttribute="leading" secondItem="d0E-md-e5R" secondAttribute="leading" constant="18" id="tFo-NA-3qm" />
+                                    <constraint firstItem="d0E-md-e5R" firstAttribute="trailing" secondItem="W6T-Tq-Hhk" secondAttribute="trailing" constant="18" id="lsV-xL-y5t" />
+                                    <constraint firstItem="W6T-Tq-Hhk" firstAttribute="top" secondItem="9rU-AG-SRN" secondAttribute="bottom" constant="16" id="r59-iI-As1" />
+                                    <constraint firstItem="9rU-AG-SRN" firstAttribute="leading" secondItem="d0E-md-e5R" secondAttribute="leading" constant="15" id="qOU-bj-G2N" />
+                                    <constraint firstItem="d0E-md-e5R" firstAttribute="trailing" secondItem="9rU-AG-SRN" secondAttribute="trailing" constant="17" id="VkF-y4-oqx" />
+                                    <constraint firstItem="9rU-AG-SRN" firstAttribute="top" secondItem="KqP-rq-kG8" secondAttribute="bottom" constant="16" id="863-rE-lUL" />
+                                    <constraint firstItem="KqP-rq-kG8" firstAttribute="leading" secondItem="d0E-md-e5R" secondAttribute="leading" constant="17" id="qv0-25-J5Y" />
+                                    <constraint firstItem="d0E-md-e5R" firstAttribute="trailing" secondItem="KqP-rq-kG8" secondAttribute="trailing" constant="19" id="HM5-qp-FJh" />
+                                    <constraint firstItem="KqP-rq-kG8" firstAttribute="top" secondItem="inU-Ag-6pB" secondAttribute="bottom" constant="16" id="Ufv-Q6-CpS" />
+                                    <constraint firstItem="inU-Ag-6pB" firstAttribute="leading" secondItem="d0E-md-e5R" secondAttribute="leading" constant="18" id="cNO-4I-fX7" />
+                                    <constraint firstItem="d0E-md-e5R" firstAttribute="trailing" secondItem="inU-Ag-6pB" secondAttribute="trailing" constant="18" id="r3b-4L-sxS" />
+                                    <constraint firstItem="inU-Ag-6pB" firstAttribute="top" secondItem="d0E-md-e5R" secondAttribute="top" constant="15" id="1R2-OW-NSC" />
+                                </constraints>
+                                <subviews>
+                                    <imageView id="NyQ-59-YLr" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="add-text-item">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="17" y="363" width="76" height="76" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="W6T-Tq-Hhk" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="add-paint-item">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="18" y="271" width="76" height="76" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="9rU-AG-SRN" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="add-downloaded-item">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="15" y="187" width="80" height="68" />
+                                        <constraints />
+                                    </imageView>
+                                    <imageView id="KqP-rq-kG8" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="add-photo-item">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="17" y="107" width="76" height="64" />
+                                        <constraints />
+                                    </imageView>
+                                    <button id="inU-Ag-6pB" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="18" y="15" width="76" height="76" />
+                                        <constraints>
+                                            <constraint firstItem="inU-Ag-6pB" firstAttribute="height" constant="76" id="3pZ-7d-unO" />
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12" />
+                                        <state backgroundImage="add-camera-item" key="normal" />
+                                        <connections>
+                                            <action selector="onAddCameraItemPressed:" destination="U7f-10-VmB" eventType="touchUpInside" id="xLI-TX-StX" />
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
+                    </view>
+                    <tabBarItem id="0ZJ-yC-5pv" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="tabBarItem">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="0" width="0" height="0" />
+                        <constraints />
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="addItemMenuButton" destination="7RH-Wv-K3t" id="YCb-of-zgG" />
+                        <outlet property="addItemMenuPopupView" destination="d0E-md-e5R" id="imF-C1-Lmv" />
+                        <outlet property="addCameraItemButton" destination="inU-Ag-6pB" id="LPL-Up-QRD" />
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JPB-Nb-frX" userLabel="First Responder" sceneMemberID="firstResponder" />
+            </objects>
+            <point key="canvasLocation" x="0" y="0" />
+        </scene>
+    </scenes>
+    <resources>
+        <image name="send" width="48" height="48" />
+        <image name="play" width="48" height="48" />
+        <image name="tools" width="48" height="48" />
+        <image name="add-item-menu" width="48" height="48" />
+        <image name="scenes-menu" width="48" height="48" />
+        <image name="add-text-item" width="76" height="76" />
+        <image name="add-paint-item" width="76" height="76" />
+        <image name="add-downloaded-item" width="80" height="68" />
+        <image name="add-photo-item" width="76" height="64" />
+        <image name="add-camera-item" width="76" height="76" />
+    </resources>
+</document>
