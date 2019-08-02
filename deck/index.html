@@ -38,6 +38,8 @@
     <div class="reveal">
         <div class="slides">
 
+<!-- usual source https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js -->
+<script src="./assets/lottie-player.js"></script>
 <section id="section" class="level1">
 <h1></h1>
 <p><img src="./assets/SponsorsBlack.png" /></p>
@@ -55,11 +57,14 @@
 <p>See lots of links on my github site (also be on the last slide)</p>
 <p><a href="https://github.com/AndyDentFree/DDD19">github.com/AndyDentFree/DDD19</a></p>
 <ul>
-<li>Val Head’s book <em>Interface Animation</em>, articles and videos</li>
+<li>Val Head’s book <em>Interface Animation</em>, videos etc</li>
 <li>Disney’s book <a href="https://www.amazon.com/Illusion-Life-Disney-Animation/dp/0786860707/ref=sr_1_1?ie=UTF8&amp;qid=1452379828&amp;sr=8-1">The Illusion of Life</a></li>
-<li><a href="https://vimeo.com/93206523">As video</a> and <a href="https://the12principles.tumblr.com/">gifs</a> 8 of which are on the following pages</li>
+<li><a href="https://vimeo.com/93206523">As video</a> and <a href="https://the12principles.tumblr.com/">gifs</a> 8 of which follow</li>
 <li><a href="https://ohmy.disney.com/movies/2016/07/20/twelve-principles-animation-disney/">Really good article</a> illustrating them with longer clips from Disney and Pixar movies, and explanations</li>
 </ul>
+<aside class="notes">
+The gifs come from the video mentioned which show film fake scratches so you see odd flashes of hair and other tiny white marks
+</aside>
 </section>
 <section id="principle-1---squash-and-stretch" class="level1">
 <h1>Principle 1 - Squash and Stretch</h1>
@@ -85,8 +90,8 @@
 <h1>Principle 8 - Secondary Action</h1>
 <p><img src="./assets/12p_secondaryaction.gif" /></p>
 </section>
-<section id="principle-9--timing" class="level1">
-<h1>Principle 9- Timing</h1>
+<section id="principle-9---timing" class="level1">
+<h1>Principle 9 - Timing</h1>
 <p><img src="./assets/12p_timing.gif" /></p>
 </section>
 <section id="principle-10---exaggeration" class="level1">
@@ -95,9 +100,39 @@
 </section>
 <section id="why-animate---designers" class="level1">
 <h1>Why Animate? - Designers</h1>
+<p><strong>Amuse</strong></p>
 <p>Distract</p>
-<p>Amuse</p>
 <p>Inform</p>
+<p><lottie-player 
+    src="./assets/8103-jump.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay >
+</lottie-player></p>
+<aside class="notes">
+Start at about 3:30
+</aside>
+</section>
+<section id="why-animate---designers-1" class="level1">
+<h1>Why Animate? - Designers</h1>
+<p>Amuse</p>
+<p><strong>Distract</strong></p>
+<p>Inform</p>
+<p><lottie-player 
+    src="./assets/961-checked-loading.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay >
+</lottie-player></p>
+<aside class="notes">
+Start at about 3:30
+</aside>
+</section>
+<section id="why-animate---designers-2" class="level1">
+<h1>Why Animate? - Designers</h1>
+<p>Amuse</p>
+<p>Distract</p>
+<p><strong>Inform</strong></p>
+<p><lottie-player 
+    src="./assets/926-menu-volver.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay >
+</lottie-player></p>
+<aside class="notes">
+Start at about 3:30
+</aside>
 </section>
 <section id="why-animate---developers-view" class="level1">
 <h1>Why Animate? - Developer’s View</h1>
@@ -119,7 +154,27 @@
 <h1>New Breed of Tools</h1>
 <p>Start with Sketch or other vector prototype</p>
 <p>Add animation</p>
-<p>Generate working code</p>
+Generate working code
+<aside class="notes">
+Start at about 6:00
+</aside>
+</section>
+<section id="web-world" class="level1">
+<h1>Web world</h1>
+<p>SVG-based vectors</p>
+<p>Pure CSS</p>
+<p>GSAP Greensock JS-driven canvas</p>
+and…
+<aside class="notes">
+Not focused on this
+</aside>
+</section>
+<section id="lottie" class="level1">
+<h1>Lottie</h1>
+<p>Simple animated vectors from Adobe After Effects via <em>bodymovin</em> plugin to JSON, effectively a <a href="http://airbnb.io/lottie/#/supported-features">standard</a></p>
+<p>Fast native &amp; web players by <a href="http://airbnb.io/lottie/#/">AirBnb</a></p>
+<p>Other editors such as <a href="https://www.haiku.ai/">Haiku</a> and <a href="https://www.keyshapeapp.com/">Keyshape</a></p>
+<p>As seen on the Why Animate? - Designers slide, content from <a href="https://lottiefiles.com/b.bfer">lottiefiles.com</a></p>
 </section>
 <section id="mostly-mobile-tools" class="level1">
 <h1>Mostly Mobile Tools</h1>
@@ -127,19 +182,40 @@
 <p>Haiku</p>
 <p>Flow</p>
 </section>
-<section id="web-world" class="level1">
-<h1>Web world</h1>
-<p>SVG-based</p>
-<p>GSAP Greensock JS-driven</p>
-<p>other?</p>
-</section>
 <section id="simple-animation-example" class="level1">
 <h1>Simple Animation Example</h1>
-<p><img src="./assets/iOSTGdemoAnim.gif" /></p>
+<img src="./assets/iOSTGdemoAnim.gif" />
+<aside class="notes">
+Start at about 10:40
+</aside>
 </section>
 <section id="supernova-editor" class="level1">
 <h1>Supernova Editor</h1>
 <p><img src="./assets/SupernovaAnimationEditor.png" /></p>
+</section>
+<section id="supernova-generated---swift" class="level1">
+<h1>Supernova Generated - Swift</h1>
+</section>
+<section id="supernova-generated---kotlin" class="level1">
+<h1>Supernova Generated - Kotlin</h1>
+</section>
+<section id="supernova-generated---react-native" class="level1">
+<h1>Supernova Generated - React Native</h1>
+<aside class="notes">
+Flutter not yet generating animation
+</aside>
+</section>
+<section id="supernova-intro" class="level1">
+<h1>Supernova Intro</h1>
+<aside class="notes">
+Movie Start at about 11:40
+</aside>
+</section>
+<section id="supernova-play-editing-controls" class="level1">
+<h1>Supernova Play Editing Controls</h1>
+<aside class="notes">
+Movie Start at about 15:40
+</aside>
 </section>
 <section id="further-details" class="level1">
 <h1>Further Details</h1>

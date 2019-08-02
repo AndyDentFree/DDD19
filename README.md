@@ -3,17 +3,37 @@ Key links and material for my animation session at [DDD 2019 conference][ddd] in
 
 If you just followed a link to this repository, see the [presentation slides as markdown](./slides.md).
 
-You can preview the rendered presentation [direct from github][prev].
+You can also **preview the rendered presentation** [direct from github][prev].
 
-There will also be a bunch of other relevant pages linked here which don't appear in my 20 minute session.
+There will possibly be a bunch of other relevant pages linked here which don't appear in my 20 minute session. Bookmark this site as it will continue to be updated over the next few weeks.
+
+Longer form writing by [Andy Dent on Medium][adMedium] includes an [initial article on Supernova][sn1] and will have more based on this conference material.
 
 ## Authoring Tools used
-I am using a Markdown approach and based on a [Hacker news thread][hn] decided to try using [markdeck][md] which augments `reveal.hs` with a bunch of other goodies.
+I am using a Markdown approach and based on a [Hacker news thread][hn] decided to try using [markdeck][md] which augments `reveal.js` with a bunch of other goodies. This also embeds the [Lottie Web Player][lottieWeb] enhanced by [Lottie Files][lottiefiles].
 
 I started considering the highly-recommended [DeckSet app for Mac][deckset] but it lacks HTML-based presentation.
+
+## Other Attributions
+
+### Lottie Files used:
+
+As per their [CC license][lottieCC]: 
+
+- [Menu Volver][926] by Luisa Fernanda Bolaños Beltrán
+- [Jump][8103] by Luisa Fernanda Bolaños Beltrán
+- [Checked loading][961] by Luisa Fernanda Bolaños Beltrán
 
 [ddd]: https://dddperth.com/
 [md]: https://github.com/arnehilmann/markdeck
 [hn]: https://news.ycombinator.com/item?id=18863691
 [deckset]: https://www.deckset.com/
 [prev]: http://htmlpreview.github.io/?https://github.com/AndyDentFree/DDD19/blob/master/deck/index.html#/anyone-can-animate
+[926]: https://lottiefiles.com/926-menu-volver
+[8103]: https://lottiefiles.com/8103-jump
+[961]: https://lottiefiles.com/961-checked-loading
+[lottieCC]: https://lottiefiles.com/page/license
+[adMedium]: https://medium.com/@andydentperth
+[sn1]: https://uxdesign.cc/supernova-exploding-design-tool-myths-5135d9f6e2fe
+[lottieWeb]: https://lottiefiles.com/web-player
+[lottiefiles]: https://lottiefiles.com/

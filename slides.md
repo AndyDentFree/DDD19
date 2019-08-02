@@ -4,6 +4,8 @@ pdf: anyoneAnimatingDDD19.pdf
 slideNumber: true
 controls: true
 ---
+<!-- usual source https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js -->
+<script src="./assets/lottie-player.js"></script>
 
 #
 ![](./assets/SponsorsBlack.png)
@@ -32,6 +34,9 @@ See lots of links on my github site (also be on the last slide)
 - [As video][12p] and [gifs][12g] 8 of which follow
 - [Really good article][Dis12] illustrating them with longer clips from Disney and Pixar movies, and explanations
 
+<aside class="notes">
+The gifs come from the video mentioned which show film fake scratches so you see odd flashes of hair and other tiny white marks
+</aside>
 
 # Principle 1 - Squash and Stretch
 
@@ -75,11 +80,53 @@ See lots of links on my github site (also be on the last slide)
 
 # Why Animate? - Designers
 
-Amuse
+**Amuse**
 
 Distract
 
 Inform
+
+<lottie-player 
+    src="./assets/8103-jump.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay >
+</lottie-player>
+
+<aside class="notes">
+Start at about 3:30
+</aside>
+
+
+# Why Animate? - Designers
+
+Amuse
+
+**Distract**
+
+Inform
+
+<lottie-player 
+    src="./assets/961-checked-loading.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay >
+</lottie-player>
+
+<aside class="notes">
+Start at about 3:30
+</aside>
+
+
+# Why Animate? - Designers
+
+Amuse
+
+Distract
+
+**Inform**
+
+<lottie-player 
+    src="./assets/926-menu-volver.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay >
+</lottie-player>
+
+<aside class="notes">
+Start at about 3:30
+</aside>
 
 # Why Animate? - Developer's View
 
@@ -107,6 +154,31 @@ Start with Sketch or other vector prototype
 Add animation
 
 Generate working code
+<aside class="notes">
+Start at about 6:00
+</aside>
+# Web world
+
+SVG-based vectors
+
+Pure CSS 
+
+GSAP Greensock JS-driven canvas
+
+and...
+<aside class="notes">
+Not focused on this
+</aside>
+
+# Lottie
+
+Simple animated vectors from Adobe After Effects via _bodymovin_ plugin to JSON, effectively a [standard][lottieAE]
+
+Fast native & web players by [AirBnb][airbnbLottie]
+
+Other editors such as [Haiku] and [Keyshape]
+
+As seen on the Why Animate? - Designers slide, content from [lottiefiles.com][lottieSamples]
 
 # Mostly Mobile Tools
 
@@ -116,21 +188,37 @@ Haiku
 
 Flow 
 
-# Web world
-
-SVG-based
-
-GSAP Greensock JS-driven
-
-other?
 
 # Simple Animation Example
 
 ![](./assets/iOSTGdemoAnim.gif)
+<aside class="notes">
+Start at about 10:40
+</aside>
 
 # Supernova Editor
 
 ![](./assets/SupernovaAnimationEditor.png)
+
+# Supernova Generated - Swift
+
+# Supernova Generated - Kotlin
+
+# Supernova Generated - React Native
+
+<aside class="notes">
+Flutter not yet generating animation
+</aside>
+
+# Supernova Intro
+<aside class="notes">
+Movie Start at about 11:40
+</aside>
+
+# Supernova Play Editing Controls
+<aside class="notes">
+Movie Start at about 15:40
+</aside>
 
 # Further Details
 
@@ -146,3 +234,8 @@ Twitter: @andydentperth
 [12g]: https://the12principles.tumblr.com/
 [flash]: https://www.youtube.com/watch?v=LfmrHTdXgK4
 [Dis12]: https://ohmy.disney.com/movies/2016/07/20/twelve-principles-animation-disney/
+[lottieSamples]: https://lottiefiles.com/b.bfer
+[airbnbLottie]: http://airbnb.io/lottie/#/
+[Keyshape]: https://www.keyshapeapp.com/
+[Haiku]: https://www.haiku.ai/
+[lottieAE]: http://airbnb.io/lottie/#/supported-features
