@@ -3,7 +3,7 @@ Key links and material for my animation session at [DDD 2019 conference][ddd] in
 
 If you just followed a link to this repository, see the [presentation slides as markdown](./slides.md).
 
-You can also **preview the rendered presentation** [direct from github][prev].
+You can also **preview the rendered presentation** [direct from github][prev] but note that won't play the embedded Lottie animations (on slides such as _Why Animate? - Designers_). The way reveal.js works, you have to be serving from a (local?) webserver to see those
 
 There will possibly be a bunch of other relevant pages linked here which don't appear in my 20 minute session. Bookmark this site as it will continue to be updated over the next few weeks.
 
@@ -13,6 +13,9 @@ Longer form writing by [Andy Dent on Medium][adMedium] includes an [initial arti
 I am using a Markdown approach and based on a [Hacker news thread][hn] decided to try using [markdeck][md] which augments `reveal.js` with a bunch of other goodies. This also embeds the [Lottie Web Player][lottieWeb] enhanced by [Lottie Files][lottiefiles].
 
 I started considering the highly-recommended [DeckSet app for Mac][deckset] but it lacks HTML-based presentation.
+
+## Windows notes
+I didn't have time to go through the labyrinth of getting markdeck working on Windows, which removed the temptation to make last-hour changes. To serve it locally and see the Lottie animations, `python -m SimpleHTTPServer` did the trick.
 
 ## Other Attributions
 
