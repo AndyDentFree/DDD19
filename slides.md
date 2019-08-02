@@ -6,7 +6,7 @@ controls: true
 ---
 
 #
-SPEAKER SLIDE HERE
+![](./assets/SponsorsBlack.png)
 
 
 # Anyone can Animate {bg=#eee}
@@ -23,65 +23,54 @@ weakly-held pencils
 
 **(but not as we know it)**
 
-See lots of links on my github site that will also be on the last slide
+See lots of links on my github site (also be on the last slide)
 
 [github.com/AndyDentFree/DDD19][gh]
 
-Top recommendations:
-
 - Val Head's book _Interface Animation_, articles and videos
 - Disney's book [The Illusion of Life][ill]
-- [As video][12p] and [gifs][12g] which are on the following pages
-- [Really good article][Dis12] illustrating them with longer clips from Disney and Pixar movies
+- [As video][12p] and [gifs][12g] 8 of which are on the following pages
+- [Really good article][Dis12] illustrating them with longer clips from Disney and Pixar movies, and explanations
 
-# 12 Principles - Anticipation
+
+# Principle 1 - Squash and Stretch
+
+![](./assets/12p_squashandstretch.gif)
+
+# Principle 2 - Anticipation
 
 ![](./assets/12p_anticipation.gif)
 
 
-# 12 Principles - Squash and Stretch
-
-![](./assets/12p_squashandstretch.gif)
-
-
-# 12 Principles - Straight Ahead and Pose to Pose
-
-![](./assets/12p_straightposetopose.gif)
-
-
-# 12 Principles - Follow Through & Overlapping
+# Principle 5 - Follow Through & Overlapping
 
 ![](./assets/12p_followthrough.gif)
 
 
-# 12 Principles - Slow In and Slow Out
+# Principle 6 - Slow In and Slow Out
 
 ![](./assets/12p_slowinout.gif)
 
 
-# 12 Principles - Arcs
+# Principle 7 - Arcs
 
 ![](./assets/12p_arcs.gif)
 
 
-# 12 Principles - Secondary Action
+# Principle 8 - Secondary Action
 
 ![](./assets/12p_secondaryaction.gif)
 
 
-# 12 Principles - Timing
+# Principle 9- Timing
 
 ![](./assets/12p_timing.gif)
 
 
-# 12 Principles - Exaggeration
+# Principle 10 - Exaggeration
 
 ![](./assets/12p_exaggeration.gif)
 
-
-# 12 Principles - Appeal    
-
-![](./assets/12p_appeal.gif)
 
 
 # Why Animate? - Designers
