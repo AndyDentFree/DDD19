@@ -139,7 +139,7 @@ Start at about 3:30
 
 # Animation as a new Developer Hell
 
-Animation's aren't the only thing that go in circles.
+Animations aren't the only thing that go in circles.
 
 The designer-developer loop finds new things to design that have to be manually translated to code.
 
