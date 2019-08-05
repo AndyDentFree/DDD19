@@ -7,7 +7,11 @@ You can also **preview the rendered presentation** [direct from github][prev] bu
 
 There will possibly be a bunch of other relevant pages linked here which don't appear in my 20 minute session. Bookmark this site as it will continue to be updated over the next few weeks.
 
-Longer form writing by [Andy Dent on Medium][adMedium] includes an [initial article on Supernova][sn1] and will have more based on this conference material.
+Longer form writing by [Andy Dent on Medium][adMedium] includes an [initial article on Supernova][sn1] and will have more based on this conference material, coming in later August.
+
+
+## MenuAnimation Sample Art and Code
+The [sample included here](./menuAnimationDemo/) and shown in the video from the presentation shows the path from using Sketch for a design, importing into Supernova Studio (v7) and includes all the generated code.
 
 ## Authoring Tools used
 I am using a Markdown approach and based on a [Hacker news thread][hn] decided to try using [markdeck][md] which augments `reveal.js` with a bunch of other goodies. This also embeds the [Lottie Web Player][lottieWeb] enhanced by [Lottie Files][lottiefiles].
