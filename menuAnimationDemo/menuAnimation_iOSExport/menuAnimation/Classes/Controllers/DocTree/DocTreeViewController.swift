@@ -117,7 +117,7 @@ class DocTreeViewController: UIViewController {
         animationProperty1.keyPath = "transform.translation.y"
         animationProperty1.keyTimes = [ 0, 0.6, 0.75, 0.9, 1 ]
         animationProperty1.values = [ 3000, -25, 10, -5, 0 ]
-        animationProperty1.animations?.append(animationProperty1)
+        animationElement1.animations?.append(animationProperty1)
         
         
         let animationProperty2 = CAKeyframeAnimation()
@@ -130,7 +130,7 @@ class DocTreeViewController: UIViewController {
         animationProperty2.keyPath = "opacity"
         animationProperty2.keyTimes = [ 0, 0.6, 1 ]
         animationProperty2.values = [ 0, 1, 1 ]
-        animationProperty2.animations?.append(animationProperty2)
+        animationElement1.animations?.append(animationProperty2)
         
         
         self.addItemMenuPopupView.layer.add(animationElement1, forKey: nil)
@@ -152,7 +152,7 @@ class DocTreeViewController: UIViewController {
         animationProperty1.keyPath = "transform.translation.y"
         animationProperty1.keyTimes = [ 0, 0.2, 0.4, 0.45, 1 ]
         animationProperty1.values = [ 0, 10, -20, -20, 2000 ]
-        animationProperty1.animations?.append(animationProperty1)
+        animationElement1.animations?.append(animationProperty1)
         
         
         let animationProperty2 = CAKeyframeAnimation()
@@ -165,7 +165,7 @@ class DocTreeViewController: UIViewController {
         animationProperty2.keyPath = "opacity"
         animationProperty2.keyTimes = [ 0, 0.4, 1 ]
         animationProperty2.values = [ 1, 1, 0 ]
-        animationProperty2.animations?.append(animationProperty2)
+        animationElement1.animations?.append(animationProperty2)
         
         
         self.addItemMenuPopupView.layer.add(animationElement1, forKey: nil)
