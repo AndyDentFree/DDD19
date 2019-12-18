@@ -1,5 +1,5 @@
 # DDD19
-Key links and material for my animation session at [DDD 2019 conference][ddd] in Perth, Western Australia.
+Key links and material for my animation session at [DDD 2019 conference][ddd] in Perth, Western Australia. Video of the talk now [online][ytddd].
 
 If you just followed a link to this repository, see the [presentation slides as markdown](./slides.md).
 
@@ -7,7 +7,7 @@ You can also **preview the rendered presentation** [direct from github][prev] bu
 
 There will possibly be a bunch of other relevant pages linked here which don't appear in my 20 minute session. Bookmark this site as it will continue to be updated over the next few weeks.
 
-Longer form writing by [Andy Dent on Medium][adMedium] includes an [initial article on Supernova][sn1] and will have more based on this conference material, coming in later August.
+Longer form writing by [Andy Dent on Medium][adMedium] includes an [initial article on Supernova][sn1] and will have more based on this conference material, along with a [Touchgram walkthrough showing the UI generated][tgcanva].
 
 
 ## MenuAnimation Sample Art and Code
@@ -32,6 +32,8 @@ As per their [CC license][lottieCC]:
 - [Checked loading][961] by Luisa Fernanda Bolaños Beltrán
 
 [ddd]: https://dddperth.com/
+[ytddd]: https://www.youtube.com/watch?v=D1WSsEfkI0k
+[tgcanva]: https://medium.com/touchgram/birthday-card-via-canva-touchgram-c69d9dfa8b8e
 [md]: https://github.com/arnehilmann/markdeck
 [hn]: https://news.ycombinator.com/item?id=18863691
 [deckset]: https://www.deckset.com/
